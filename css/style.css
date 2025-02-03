@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 50px;
 }
 
 #wrapper {
@@ -7,6 +8,7 @@ body {
     height: 500px;
     margin: auto;
     border: 1px solid black;
+    position: relative;
 }
 
 #test {
@@ -33,5 +35,61 @@ body {
     dashed
     hidden
     */
-    
+
+}
+
+#red {
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#blue {
+    background-color: blue;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    /* top:0;
+    right: 0; */
+}
+
+#green {
+    background-color: green;
+    top: 40px;
+    left: 40px;
+    z-index: 3;
+    /* bottom: 0;
+    left: 0; */
+}
+
+#yellow {
+    background-color: yellow;
+    top: 60px;
+    left: 60px;
+    z-index: 4;
+    /* bottom: 0;
+    right: 0; */
+}
+
+#red,
+#blue,
+#green,
+#yellow {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#sidebar{
+    width: 200px;
+    height: 350px;
+    background-color: blueviolet;
+    position: fixed;
+    left: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* opacity: 0.6; */
+    overflow: hidden;
+
 }
