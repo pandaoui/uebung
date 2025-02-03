@@ -1,8 +1,17 @@
+@font-face {
+    font-family: oliver;
+    src: url(../font/LexendGiga-Black.ttf);
+}
+
+html{
+    font-size: 100%;
+}
+
 body {
     margin: 0;
     padding: 50px;
+    font-family: oliver;
 }
-
 #wrapper {
     width: 500px;
     height: 500px;
@@ -10,86 +19,9 @@ body {
     border: 1px solid black;
     position: relative;
 }
-
-#test {
-    width: 300px;
-    height: 300px;
-    background-color: #ffdede;
-    box-shadow: 10px 10px 15px 15px black;
-    /* border-radius: 30px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 70px;
-    border-bottom-left-radius: 100px;
-
-    border-radius: 30px 40px 50px 60px; */
-
-    /* border: 5px dashed green; */
-
-    /* Border Arten:
-    solid
-    groove
-    ridge
-    inset
-    dotted
-    dashed
-    hidden
-    */
-
+#wrapper p{
+    font-size: 1.5rem;
 }
-
-#red {
-    background-color: red;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-#blue {
-    background-color: blue;
-    top: 20px;
-    left: 20px;
-    z-index: 2;
-    /* top:0;
-    right: 0; */
-}
-
-#green {
-    background-color: green;
-    top: 40px;
-    left: 40px;
-    z-index: 3;
-    /* bottom: 0;
-    left: 0; */
-}
-
-#yellow {
-    background-color: yellow;
-    top: 60px;
-    left: 60px;
-    z-index: 4;
-    /* bottom: 0;
-    right: 0; */
-}
-
-#red,
-#blue,
-#green,
-#yellow {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-}
-
-#sidebar{
-    width: 200px;
-    height: 350px;
-    background-color: blueviolet;
-    position: fixed;
-    left: 0;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    /* opacity: 0.6; */
-    overflow: hidden;
-
+#wrapper a{
+    font-size: 3.5rem;
 }
